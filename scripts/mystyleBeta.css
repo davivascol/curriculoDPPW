@@ -1,0 +1,95 @@
+
+i { font-style: italic;}
+b { font-weight: bold; color: 01074D; }
+
+div {
+	display: block; 
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+td, th {
+	padding: 10px; 
+}
+
+.tdLeft {
+
+	width:100px;
+}
+.tdright {
+	text-align:justify;	
+}
+
+
+body {	
+	background-color: #FFFFFF;
+}
+
+img {
+	width:250px;
+	margin-left:100px;
+	margin-top:-5px;
+
+	border-top-style: solid;
+	border-top-color: 01074D;
+	border-top-width: 1px;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center; color: 01074D; font-weight: bold;
+}
+
+h1 { font-size: 30px ; }
+h2 { font-size: 20px; margin:10px;}
+
+main{ margin: 30px 100px 30px 100px; font-family: monospace; }
+
+.divh1 { padding: 10px 35px 10px 35px; background-color: D3D3D3; border: dashed 1px #C1C1C1;}
+
+.divGeneralData { background-color: #D3D3D3; padding: 10px; margin-top: 30px; width: 700px; border: dashed 1px #C1C1C1; float: left;}
+.divGeneralDataLine { height: 20px; }
+.divGeneralDataInternal { width: 340px; float:left; margin-left:10px;}
+.divGeneralDataInternalAddress {  float:left; margin-left:10px;}
+
+cargo, formacao, extracurricular { display: block; margin: 10px; font-size: 18px; font-weight: bold;}
+periodo { font-size: 12px; display: block; margin: 0 0 10px 10px;}
+local {font-size: 12px; display: block; margin: 0 0 10px 10px;}
+experiencia {font-size: 12px; display: block; margin: 0 10px 10px 10px; text-align:justify;}
+
+.profissionalIcon {
+	width:16px; 
+	height:16px;
+	padding-right:16px;
+  	background-image: url('../images/1416110552_Admin.png');
+  	background-repeat: no-repeat;
+  	background-position: left;
+  	float:left;
+}
+
+.fomacaoIcon {
+	width:16px; 
+	height:16px;
+	padding-right:16px;
+  	background-image: url('../images/1416382559_graduated.png');
+  	background-repeat: no-repeat;
+  	background-position: left;
+  	float:left;
+}
+
+.extraCurricularIcon {
+	width:16px; 
+	height:16px;
+	padding-right:16px;
+  	background-image: url('../images/1416472275_Student.png');
+  	background-repeat: no-repeat;
+  	background-position: left;
+  	float:left;	
+}
+
