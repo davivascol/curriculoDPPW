@@ -10,7 +10,7 @@ $(function() {
 			    
 		$.map( data, function( objCurriculo, i ) {
 			
-			 objHTML += "<tr><td class=\"tdLeft\" ><a href='" + objCurriculo.link_github + "'>" + objCurriculo.nome + 
+			 objHTML += "<tr><td class=\"tdLeft\" ><a href='" + objCurriculo.link_html + "'>" + objCurriculo.nome + 
 			 "</a></td><td class=\"tdright\">" + objCurriculo.mini_curriculo + "</td></tr>" ;
 		});
 
